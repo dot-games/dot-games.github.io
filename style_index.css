@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+
+body
+{
+   background: #1B2838;
+   font-family: 'Poppins';
+}
+
+ul 
+{
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+}
+
+li 
+{
+  float: left;
+  justify-content: center;
+  align-items: center;
+}
+
+/*cabecalho*/
+
+.cabecalho
+{
+	background: #171A21;
+	font-weight: bold;
+	height: 150px;
+	max-width: 100%;
+	margin-top: -10px;
+}
+
+.cabecalho .logo img
+{
+	height: 150px;
+	width: 300px;
+	float: left;
+	margin-top: 10px;
+}
+
+.cabecalho .pesquisa
+{
+	float: right;
+	margin-right: 80px;
+	margin-top: 45px;
+}
+
+.cabecalho .pesquisa img
+{
+	position: absolute;
+	height: 40px;
+    width: 40px;
+    margin-top: 9px;
+    transform: translateX(-50px);
+}
+
+.cabecalho .pesquisa input
+{
+	text-decoration: none;
+	border-radius: 10px;
+	background: #14161C;
+	color: #ffffff;
+	padding: 15px 20px;
+	border-color: #1B2838;
+	font-size: 17px;
+	font-weight: bold; 
+}
+
+
+/*corpo index*/
+
+.corpo .card img
+{
+	border-radius: 20px;
+	margin-top: 45px;
+	margin-left: 25px;
+	height: 200px;
+	width: 360px;
+	max-width: 100%;
+}
+
+.corpo .card img:hover
+{
+	transition: 0.2s;
+	filter:drop-shadow(10px 10px 20px grey);
+}
+
+.rodape
+{
+	margin-top: 600px;
+	text-align: center;
+}
+
+.rodape p
+{
+	color: #c4c4c4;
+	font-weight: bold;
+}
+
+.rodape a
+{
+	color: #dedede;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.rodape a:hover
+{
+	color: #e8e8e8;
+	font-weight: bold;
+	text-decoration: underline;
+}

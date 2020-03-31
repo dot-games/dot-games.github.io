@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+
+body
+{
+   background: #1B2838;
+   font-family: 'Poppins';
+}
+
+li 
+{
+  float: left;
+  justify-content: center;
+  align-items: center;
+}
+
+/*cabecalho*/
+
+.cabecalho
+{
+	background: #171A21;
+	font-weight: bold;
+	height: 150px;
+	max-width: 100%;
+	margin-top: -10px;
+}
+
+.cabecalho .logo img
+{
+	height: 150px;
+	width: 300px;
+	float: left;
+	margin-top: 10px;
+}
+
+.cabecalho .home
+{
+	display: inline-block;
+	padding: 5px 20px;
+	font-family: 'Poppins';
+	color: #1a407d;
+    font-size: 20px;
+    margin-left: 350px;
+    margin-top: 55px;
+    font-weight: bold;
+}
+
+.cabecalho .home:hover
+{
+    color: #bbc1c7;
+}
+
+.cabecalho .pesquisa
+{
+	float: right;
+	margin-right: 80px;
+	margin-top: 45px;
+}
+
+.cabecalho .pesquisa img
+{
+	position: absolute;
+	height: 40px;
+    width: 40px;
+    margin-top: 9px;
+    transform: translateX(-50px);
+}
+
+.cabecalho .pesquisa input
+{
+	text-decoration: none;
+	border-radius: 10px;
+	background: #14161C;
+	color: #ffffff;
+	padding: 15px 20px;
+	border-color: #1B2838;
+	font-size: 17px; 
+}
+
+.corpojogo
+{
+    background: #171A21;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 50px;
+    height: 3200px;
+    width: 1070px;
+    margin-left: 95px;
+    filter: drop-shadow( 8px, 8px, 10px black);
+}
+
+.corpojogo h1
+{
+	font-family: 'Poppins';
+	font-weight: bold;
+	color: #EFEFEF;
+	font-size: 50px;
+}
+
+/*video*/
+
+.corpojogo .video h3
+{
+	font-family: 'Poppins';
+	font-weight: bold;
+	color: #989FA6;
+	font-size: 20px;
+}
+
+.corpojogo .video hr
+{
+	background-color: #1a407d;
+	width: 250px;
+	height: 5px;
+	border-color: #1a407d;
+	margin-left: 20px;
+	transform: translateY(-70px);
+	position: relative;
+}
+
+/*descricao*/
+
+.corpojogo .descricao h2
+{
+	font-family: 'Poppins';
+	font-weight: bold;
+	color: #bbc1c7;
+	font-size: 35px;
+	margin-left: 45px;
+}
+
+.corpojogo .descricao p
+{
+	font-family: 'Poppins';
+	color:  #989FA6;
+	text-align: justify;
+	margin-left: 45px;
+	margin-right: 100px;
+}
+
+.corpojogo .descricao hr
+{
+	background-color: #1a407d;
+	width: 250px;
+	height: 2px;
+	border-color: #1a407d;
+	margin-left: 40px;
+	transform: translateY(-20px);
+	position: relative;
+}
+
+/*screenshots*/
+
+.corpojogo .screenshots h2
+{
+	font-family: 'Poppins';
+	font-weight: bold;
+	color: #bbc1c7;
+	font-size: 35px;
+	margin-left: 45px;
+}
+
+.corpojogo .screenshots hr
+{
+	background-color: #1a407d;
+	width: 280px;
+	height: 2px;
+	border-color: #1a407d;
+	margin-left: 35px;
+	transform: translateY(-20px);
+	position: relative;
+}
+
+.corpojogo .screenshots img
+{
+    width: 800; 
+    height: 450;
+    border-radius: 10px;
+    margin-left: 135px;
+    margin-bottom: 20px;
+}
+
+/*requesitos SO */
+
+.corpojogo .requesitosSO h2
+{
+	font-family: 'Poppins';
+	font-weight: bold;
+	color: #bbc1c7;
+	font-size: 35px;
+	margin-left: 45px;
+}
+
+.corpojogo .requesitosSO .recomendados
+{
+	background-color: #1a407d;
+	width: 540px;
+	height: 2px;
+	border-color: #1a407d;
+	margin-left: 35px;
+	transform: translateY(-20px);
+	position: relative;
+}
+
+.corpojogo .requesitosSO .minimos
+{
+	background-color: #1a407d;
+	width: 410px;
+	height: 2px;
+	border-color: #1a407d;
+	margin-left: 35px;
+	transform: translateY(-20px);
+	position: relative;
+}
+
+.corpojogo .requesitosSO li
+{
+	font-family: 'Poppins';
+	color:  #989FA6;
+	text-align: justify;
+	margin-left: 45px;
+	margin-right: 100px;
+}
+
+.corpojogo .requesitosSO ul
+{
+	margin-top: -20px; 
+}
+
+/*download button */
+
+.corpojogo .download 
+{
+	display: inline-block;
+	background: #171A21;
+	padding: 10px 70px;
+	border-radius: 40px;
+	border: 3px solid #1a407d;
+	font-family: 'Poppins';
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	color: #1a407d;
+    font-size: 20px;
+    margin-left: 400px;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.corpojogo .downloadbut .download:hover
+{
+	background: #1a407d;
+	border: 3px solid;
+	border-color: #1a407d;
+	color: #171A21;
+	font-weight: bold;
+	transition: 0.3s;
+}
+
+.corpojogo .downloadbut .download:hover i
+{
+	transform: translateX(30px);
+	transition: 0.5s;
+}
+
+.corpojogo .downloadbut i
+{
+	transform: translateX(10px);
+}
+
+/*rodape */
+
+.rodape
+{
+	margin-top: 80px;
+	text-align: center;
+}
+
+.rodape p
+{
+	color: #c4c4c4;
+	font-weight: bold;
+}
+
+.rodape a
+{
+	color: #1a407d;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.rodape a:hover
+{
+	color: #1a407d;
+	font-weight: bold;
+	text-decoration: underline;
+}
